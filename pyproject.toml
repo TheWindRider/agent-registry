@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a2a-registry-server"
+version = "0.1.0"
+description = "FastAPI-based AI Agent Registry Server using Google A2A protocol"
+requires-python = ">=3.10"
+authors = [
+  { name = "Chenguang Yang", email = "frankycg@alumni.stanford.edu" }
+]
+
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn[standard]>=0.30.0",
+  "pydantic>=2.0.0",
+  "python-a2a>=0.1.0",
+]
+
+[project.scripts]
+a2a-registry-server = "registry_server:app"
