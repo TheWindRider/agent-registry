@@ -1,0 +1,27 @@
+# VCS
+.git/
+.gitignore
+
+# Python / build artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Virtual environments
+.venv/
+
+# Tests
+tests/
+
+# Docs
+PLAN.md
+docs/
+
+# Onboarding agents
+agents/
+
+# Infrastructure as code
+infra/
+
+# Lockfile
+uv.lock
