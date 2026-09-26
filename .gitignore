@@ -34,6 +34,14 @@ htmlcov/
 .pytype/
 .ruff_cache/
 
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
 # IDE / OS
 .vscode/
 .idea/
